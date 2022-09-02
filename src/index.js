@@ -9,10 +9,10 @@ function component() {
   element.classList.add('hello');
 
   // 将图像添加到我们已经存在的 div 中。
-  const myImg = new Image();
-  myImg.src = Kitty;
+  // const myImg = new Image();
+  // myImg.src = Kitty;
 
-  element.appendChild(myImg);
+  // element.appendChild(myImg);
 
   return element;
 }

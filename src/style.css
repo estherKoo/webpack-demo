@@ -1,4 +1,12 @@
+@font-face {
+  font-family: 'cartoon';
+  src: url('./cartoon.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
 .hello {
   color: red;
-  background: url('./kitty.jpeg');
+  font-family: 'cartoon';
+  line-height: 150px;
+  background: url('./bg.jpg') no-repeat;
 }
